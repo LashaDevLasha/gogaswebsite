@@ -2,18 +2,24 @@ import React from "react";
 
 const HomePage = () => {
   return (
-    <div style={{ width:"100%" }}>
-      <section id="home" style={{ background: "aqua" }}>
-        <h2>Home</h2>
-        <p>Welcome to the home section.</p>
+    <div style={{ width: "100%" }}>
+      <section
+        id="home"
+        style={{ background: "#F3F2EB", display: "grid", placeItems: "center" }}
+      >
+        <h1>Home</h1>
       </section>
-      <section id="about" style={{ background: "green" }}>
-        <h2>About</h2>
-        <p>This is the about section.</p>
+      <section
+        id="about"
+        style={{ background: "#325746", display: "grid", placeItems: "center" }}
+      >
+        <h1>About</h1>
       </section>
-      <section id="contact" style={{ background: "red" }}>
-        <h2>Contact</h2>
-        <p>Get in touch through the contact section.</p>
+      <section
+        id="contact"
+        style={{ background: "red", display: "grid", placeItems: "center" }}
+      >
+        <h1>Contact</h1>
       </section>
     </div>
   );
